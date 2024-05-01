@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-section {
+  display: flex;
+}
+
+html,
+body,
+#root,
+.App,
+.App-section {
+  height: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: var(--color-link);
+}
+a:hover {
+  color: var(--accent-hover);
+}
+
+a:active {
+  color: var(--accent);
+}

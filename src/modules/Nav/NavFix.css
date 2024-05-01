@@ -1,0 +1,29 @@
+.navfix_wrapper {
+  position: fixed;
+  width: auto;
+  height: auto;
+
+  right: 0;
+  top: 50%;
+  left: auto;
+  transform: translateY(-50%);
+
+  margin: 32px;
+  padding: 16px;
+
+  box-shadow: var(--shadow);
+  border-radius: 30px;
+  z-index: 98;
+
+  background: var(--background);
+}
+
+.navfix_wrapper ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+}

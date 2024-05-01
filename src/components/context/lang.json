@@ -1,0 +1,12 @@
+{
+  "ru": {
+    "welcome": "Добро пожаловать",
+    "instructions": "Сохранять выбранную тему на время сессии",
+    "cardDescription": "Верстка моей фикс карточки"
+  },
+  "en": {
+    "welcome": "Welcome",
+    "instructions": "Save the selected theme for the session",
+    "cardDescription": "Layout of my fix card"
+  }
+}

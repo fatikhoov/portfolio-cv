@@ -1,0 +1,74 @@
+.App-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 80px;
+  overflow: hidden;
+  padding: 0 32px;
+  margin-bottom: 32px;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--border) 1px solid;
+  z-index: 99;
+  box-shadow: var(--shadow);
+
+  background: var(--background);
+}
+.App-header h1 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.App-header nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.App-header_menu {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.App-header_menu ul {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-link_active a {
+  color: var(--accent);
+}
+
+.profile-initials {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border: var(--color-white-dark) 0px solid;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+}
+.profile-initials span {
+  margin: auto;
+  padding-top: 2px;
+}
+
+.nav_wrapper ul {
+  display: flex;
+  gap: 16px;
+}
+
+.nav_wrapper a {
+  text-decoration: auto;
+}

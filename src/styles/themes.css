@@ -1,0 +1,43 @@
+:root {
+  --background: #fff;
+  --text-primary: #222222;
+  --text-secondary: rgb(153, 153, 153);
+
+  --accent: #f0d084;
+  --accent-hover: #ccc;
+
+  --border: rgba(86, 86, 86, 0.4);
+  --border-avatar: rgb(86, 86, 86, 0.2);
+
+  --shadow: 0px 0px 4px 2px rgb(86, 86, 86, 0.4);
+  transition: 0.4s;
+
+  --switch: #f0d084;
+  --background-switch: #202020;
+  --switch-re: #202020;
+
+  --color-link: #a7a4a4;
+
+  --color-white-dark: #a7a4a4;
+}
+
+[data-theme='dark'] {
+  --background: #222222;
+  --text-primary: #eee;
+
+  --text-secondary: #a7a4a4;
+  --accent: #5ab6cc;
+  --accent-hover: #5ab5ccc3;
+
+  --border: #5ab6cc40;
+  --border-avatar: #003d4c;
+  --shadow: 0px 0px 4px 2px #005b72;
+
+  --switch: #555555;
+  --background-switch: #5ab6cc;
+  --switch-re: #f0d084;
+
+  --color-link: #a7a4a4;
+
+  --color-white-dark: #a7a4a4;
+}

@@ -1,0 +1,35 @@
+.App-main {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+
+  width: auto;
+
+  margin: 80px 32px 32px;
+  padding: 32px 16px 16px 0;
+
+  background-color: rgba(var(--background-primary), 0.5);
+}
+
+.box_sidebarpage {
+  height: auto;
+  min-width: calc(375px - 32px);
+  width: calc(375px - 32px);
+  padding: 16px;
+}
+
+.title-head {
+  font-size: 64px;
+  font-weight: 300;
+  color: var(--text-primary);
+}
+.description-head {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.box-landing {
+  width: 100%;
+  height: auto;
+}
