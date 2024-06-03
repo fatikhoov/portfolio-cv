@@ -31,3 +31,18 @@ a:hover {
 a:active {
   color: var(--accent);
 }
+
+.rpv-default-layout__sidebar-headers {
+  display: none;
+}
+.rpv-core__page-layer.rpv-core__page-layer--single {
+  height: auto !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+.rpv-core__text-layer,
+.rpv-core__canvas-layer,
+.rpv-core__canvas-layer canvas {
+  width: 100% !important;
+  height: auto !important;
+}

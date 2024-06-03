@@ -1,11 +1,11 @@
-import { Viewer } from '@react-pdf-viewer/core'
-
-import '@react-pdf-viewer/core/lib/styles/index.css'
-
 export default function PriceHead() {
   return (
     <>
-      <Viewer fileUrl="/pdf/price-elmira.pdf" />
+      <iframe
+        src="https://1drv.ms/b/c/1042ef2d0dee56ac/IQORA-u_RXlaTLOpK0ws1x19AXyVqk7YeWORSLUSu8xFjAo"
+        width="100%"
+        height="450px"
+      ></iframe>
     </>
   )
 }
